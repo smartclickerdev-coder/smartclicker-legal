@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>سياسة الخصوصية — Smart Clicker (الكليكر الذكي)</title>
+<style>
+  :root{
+    --bg:#0f1115; --card:#161a21; --text:#e8eaed; --muted:#9aa3af;
+    --accent:#3ddc97; --border:#262b35;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#f7f8fa; --card:#ffffff; --text:#1a1d23; --muted:#5a6272; --border:#e4e7ec; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:"Segoe UI","Tahoma",system-ui,-apple-system,sans-serif;
+    line-height:1.8;
+  }
+  .wrap{max-width:860px; margin:0 auto; padding:32px 20px 80px}
+  .card{background:var(--card); border:1px solid var(--border); border-radius:14px; padding:28px 28px; margin-bottom:24px}
+  h1{font-size:1.6rem; margin:0 0 4px}
+  .sub{color:var(--muted); font-size:.95rem; margin-bottom:18px}
+  h2{font-size:1.15rem; color:var(--accent); margin:28px 0 10px; border-bottom:1px solid var(--border); padding-bottom:8px}
+  h2:first-of-type{margin-top:0}
+  ul{padding-inline-start:22px; margin:8px 0}
+  li{margin:6px 0}
+  .box{background:rgba(61,220,151,.08); border:1px solid rgba(61,220,151,.3); border-radius:10px; padding:14px 16px; margin:12px 0}
+  .muted{color:var(--muted); font-size:.92rem}
+  a{color:var(--accent)}
+  .lang-switch{display:flex; gap:10px; justify-content:center; margin-bottom:20px}
+  .lang-switch a{
+    padding:8px 16px; border:1px solid var(--border); border-radius:20px; text-decoration:none; font-size:.9rem;
+  }
+  footer{text-align:center; color:var(--muted); font-size:.85rem; margin-top:30px}
+  [dir="ltr"]{text-align:left}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="lang-switch">
+    <a href="#ar">العربية</a>
+    <a href="#en">English</a>
+  </div>
+
+  <!-- ===================== ARABIC ===================== -->
+  <div class="card" id="ar" dir="rtl" lang="ar">
+    <h1>سياسة الخصوصية — Smart Clicker (الكليكر الذكي)</h1>
+    <div class="sub">آخر تحديث: 18 نوفمبر 2026</div>
+
+    <p>تطبيق <strong>Smart Clicker (الكليكر الذكي)</strong> — المعرَّف بالحزمة
+      <code>com.smartclicker.app</code> — مُوجَّه لسائقي خدمات توصيل الركاب، ويساعدهم
+      على الاستجابة التلقائية لعروض الرحلات داخل تطبيق النقل الذي يستخدمونه، حسب
+      الإعدادات (السعر، المسافة، ... إلخ) التي يحددها المستخدم بنفسه.</p>
+
+    <h2>1) من نحن</h2>
+    <p>هذه السياسة صادرة عن مطوّر التطبيق، ويمكن التواصل معنا عبر البريد
+      الإلكتروني: <a href="mailto:smartclickerdev@gmail.com">smartclickerdev@gmail.com</a>.</p>
+
+    <h2>2) البيانات التي نجمعها وسبب جمعها</h2>
+    <ul>
+      <li><strong>بيانات الحساب:</strong> الاسم ورقم الهاتف عند التسجيل، ورمز الإحالة
+        الاختياري إن وُجد — لإنشاء حسابك وربط اشتراكك وتقديم الدعم الفني.</li>
+      <li><strong>معرّف الجهاز (Android ID):</strong> يُستخدم لربط ترخيص الاشتراك
+        بجهازك تحديداً ومنع استخدامه على أكثر من جهاز دون تصريح.</li>
+      <li><strong>بيانات عروض الرحلات (عبر خدمة إمكانية الوصول):</strong> عند تفعيلك
+        لخدمة Accessibility، يقرأ التطبيق محتوى شاشة "عرض الرحلة" المعروضة من تطبيق
+        النقل نفسه (السعر، المسافة، نص الوجهة، نص نقطة الانطلاق) ليقارنها بإعداداتك
+        ويقرر القبول التلقائي. نتيجة هذه العملية (تم القبول/الرفض وسببه، والتوقيت)
+        تُرسَل إلى خوادمنا ومرتبطة بجهازك، لتشغيل الخدمة وعرض سجل رحلاتك وإحصائياتك.</li>
+      <li><strong>رمز إشعارات الدفع (FCM):</strong> لإرسال إشعارات حالة الاشتراك
+        وردود الدعم الفني إليك.</li>
+      <li><strong>محادثة الدعم الفني:</strong> النصوص، وأي صور أو رسائل صوتية
+        تُرسلها بنفسك عبر شاشة الدعم داخل التطبيق — فقط عندما تختار تسجيلها وإرسالها.</li>
+      <li><strong>معلومات تقنية محدودة:</strong> إصدار التطبيق وطراز الجهاز، لأغراض
+        الدعم الفني وتشخيص الأعطال فقط.</li>
+      <li><strong>الموقع التقريبي (اختياري):</strong> إن مَنحت صلاحية الموقع
+        التقريبي، تُستخدم محلياً فقط لتوسيط الخريطة عند فتح شاشة "المناطق المستثناة"
+        — ولا تُخزَّن هذه البيانات على خوادمنا ولا تُرسَل إطلاقاً.</li>
+    </ul>
+
+    <div class="box">
+      <strong>ما لا نقوم به إطلاقاً:</strong>
+      <ul>
+        <li>لا نُسجّل الصوت في الخلفية. صلاحية الميكروفون تُستخدم فقط عندما تضغط
+          أنت بنفسك على زر التسجيل لإرسال رسالة صوتية في محادثة الدعم.</li>
+        <li>لا نتتبّع موقعك الجغرافي الفعلي أو اللحظي.</li>
+        <li>لا نصل إلى جهات اتصالك أو صورك أو رسائلك أو بيانات أي تطبيق آخر على
+          جهازك، ولا نقرأ من شاشة أي تطبيق سوى شاشة عرض الرحلة الموضحة أعلاه.</li>
+        <li>لا نجمع بيانات بطاقات الدفع داخل التطبيق.</li>
+      </ul>
+    </div>
+
+    <h2>3) خدمة إمكانية الوصول (Accessibility Service) — توضيح صريح</h2>
+    <p>التطبيق يطلب صلاحية Accessibility لغرض واحد فقط: رصد شاشة "عرض الرحلة"
+      الصادرة عن تطبيق النقل الذي تستخدمه، ومقارنتها بالشروط التي حددتها أنت
+      (كحد أدنى للسعر أو حد أقصى للمسافة)، ثم تنفيذ النقر التلقائي للقبول عند
+      تحقق الشروط. لا تُستخدم هذه الصلاحية لعرض إعلانات، ولا لجمع بيانات من
+      تطبيقات أخرى غير معنية بهذه الميزة. يمكنك تعطيل الخدمة في أي وقت من
+      إعدادات "إمكانية الوصول" على جهازك.</p>
+
+    <h2>4) مشاركة البيانات</h2>
+    <p>لا نبيع بياناتك لأي طرف ثالث. تُخزَّن البيانات على بنية خوادم Supabase
+      الخاصة بالتطبيق. في حال كان اشتراكك مُدارًا من قِبل موزّع/وكيل معتمد
+      (Reseller)، فقد يتمكن ذلك الموزّع من الاطلاع على بيانات اشتراكك الأساسية
+      (كالاسم ورقم الهاتف وحالة الاشتراك) لغرض تفعيل الخدمة وتقديم الدعم لك فقط.</p>
+
+    <h2>5) الاحتفاظ بالبيانات والأمان</h2>
+    <p>نحتفظ ببياناتك طالما حسابك نشطاً أو للمدة اللازمة للدعم الفني ومنع
+      إساءة الاستخدام. تُنقَل جميع البيانات عبر اتصال مشفّر (HTTPS/TLS).</p>
+
+    <h2>6) حقوقك</h2>
+    <p>يمكنك طلب الاطلاع على بياناتك أو تصحيحها أو حذفها بالتواصل معنا عبر
+      البريد الإلكتروني أعلاه.</p>
+
+    <h2>7) الأطفال</h2>
+    <p>هذا التطبيق موجّه للبالغين من مزاولي مهنة النقل، ولا يستهدف الأطفال دون
+      13 عاماً عمداً.</p>
+
+    <h2>8) تعديلات على هذه السياسة</h2>
+    <p>قد نحدّث هذه السياسة من وقت لآخر، وسيظهر تاريخ آخر تحديث أعلى الصفحة.</p>
+
+    <h2>9) التواصل معنا</h2>
+    <p><a href="mailto:smartclickerdev@gmail.com">smartclickerdev@gmail.com</a></p>
+  </div>
+
+  <!-- ===================== ENGLISH ===================== -->
+  <div class="card" id="en" dir="ltr" lang="en">
+    <h1>Privacy Policy — Smart Clicker</h1>
+    <div class="sub">Last updated: November 18, 2026</div>
+
+    <p><strong>Smart Clicker</strong> (package <code>com.smartclicker.app</code>) is an
+      app for ride-hailing drivers that helps them respond automatically to trip
+      offers inside the ride-hailing app they use, based on rules the driver
+      configures themselves (price, distance, etc.).</p>
+
+    <h2>1) Who we are</h2>
+    <p>This policy is issued by the app's developer. Contact us at
+      <a href="mailto:smartclickerdev@gmail.com">smartclickerdev@gmail.com</a>.</p>
+
+    <h2>2) Data we collect and why</h2>
+    <ul>
+      <li><strong>Account data:</strong> name and phone number at registration,
+        and an optional referral code — to create your account, link your
+        subscription, and provide support.</li>
+      <li><strong>Device identifier (Android ID):</strong> used to bind your
+        subscription license to your specific device and prevent unauthorized
+        sharing of a license across devices.</li>
+      <li><strong>Trip-offer data (via the Accessibility Service):</strong> when
+        you enable the Accessibility Service, the app reads the content of the
+        "trip offer" screen shown by your ride-hailing app (price, distance,
+        destination text, pickup text) to compare it against your own rules and
+        decide whether to auto-accept it. The outcome of this (accepted/rejected
+        and why, and timing) is sent to our servers, tied to your device, to run
+        the feature and show you your trip history and statistics.</li>
+      <li><strong>Push notification token (FCM):</strong> to deliver notifications
+        about your subscription status and support replies.</li>
+      <li><strong>Support chat:</strong> text messages, and any images or voice
+        notes you choose to record and send through the in-app support screen.</li>
+      <li><strong>Limited technical info:</strong> app version and device model,
+        used only for troubleshooting and support.</li>
+      <li><strong>Approximate location (optional):</strong> if you grant coarse
+        location permission, it is used only locally to center the map on the
+        "Excluded Areas" screen — it is never stored on our servers or
+        transmitted anywhere.</li>
+    </ul>
+
+    <div class="box">
+      <strong>What we never do:</strong>
+      <ul>
+        <li>We do not record audio in the background. Microphone access is only
+          used when you tap record to send a voice note in support chat.</li>
+        <li>We do not track your real-time or precise GPS location.</li>
+        <li>We do not access your contacts, photos, messages, or data from any
+          other app, and we do not read any on-screen content other than the
+          trip-offer screen described above.</li>
+        <li>We do not collect payment card details inside the app.</li>
+      </ul>
+    </div>
+
+    <h2>3) Accessibility Service — explicit disclosure</h2>
+    <p>The app requests the Accessibility permission for one purpose only:
+      detecting the "trip offer" screen shown by your ride-hailing app, comparing
+      it to the rules you configured (e.g. a minimum price or maximum distance),
+      and performing the automatic tap to accept when your rules are met. This
+      permission is not used to serve ads or to collect data from unrelated apps.
+      You can disable the service at any time from your device's Accessibility
+      settings.</p>
+
+    <h2>4) Data sharing</h2>
+    <p>We do not sell your data to any third party. Data is stored on the app's
+      Supabase backend infrastructure. If your subscription is managed by an
+      authorized reseller, that reseller may be able to see your basic
+      subscription data (such as name, phone number, and subscription status)
+      solely to activate and support your subscription.</p>
+
+    <h2>5) Retention and security</h2>
+    <p>We retain your data while your account is active, or as needed for
+      support and fraud prevention. All data is transmitted over an encrypted
+      connection (HTTPS/TLS).</p>
+
+    <h2>6) Your rights</h2>
+    <p>You may request access to, correction of, or deletion of your data by
+      contacting us at the email address above.</p>
+
+    <h2>7) Children</h2>
+    <p>This app is intended for adult drivers and is not knowingly directed at
+      children under 13.</p>
+
+    <h2>8) Changes to this policy</h2>
+    <p>We may update this policy from time to time; the "last updated" date at
+      the top of this page will reflect any change.</p>
+
+    <h2>9) Contact us</h2>
+    <p><a href="mailto:smartclickerdev@gmail.com">smartclickerdev@gmail.com</a></p>
+  </div>
+
+  <footer>Smart Clicker — © 2026</footer>
+</div>
+</body>
+</html>
